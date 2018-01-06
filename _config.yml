@@ -2,26 +2,26 @@
 #
 
 # Site settings
-title: Spectral
+title: MálagaJam
 description: |
   Another fine responsive  
   site template freebie  
   crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+owner: MálagaJam # or company name
+first_published: 2018 # if migrating another site, the year of your first publish
+email: info@malagajam.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
+  twitter: https://twitter.com/malagajam
+  #github: https://github.com/<username>
+  #linkedin-square: https://linkedin.com/in/<username>
+  facebook-official: https://facebook.com/malagajam
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  email: /contact/
   #flickr:
   #instagram:
-  #youtube-square:
+  youtube-square: https://www.youtube.com/channel/UCmQ_zibc3cteype4pYYWj0w
   #spotify:
   #stack-overflow:
   #vimeo:
@@ -41,7 +41,7 @@ social:
   #linux:
   #bitbucket-square:
   #vk:
-  #slack:
+  slack: https://jamses.slack.com/
   #vine:
   #weixin:
   #yelp:
