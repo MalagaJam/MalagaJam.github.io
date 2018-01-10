@@ -11,7 +11,11 @@ permalink: weekend7
 ### El reto
 Desarrollar un videojuego no es tarea sencilla pero estamos dispuestos a complicarla aún más. Acompáñanos el fin de semana del 26 al 28 de enero en la séptima edición de MálagaJam Weekend, un evento centrado en el aprendizaje, el desarrollo personal y la comunicación.
 Pero… ¿Qué es una Game Jam? Es un evento donde personas interesadas en la creación de juegos se reúnen para una contrarreloj muy especial. Partiendo del mismo tema, y con la creatividad por bandera, los participantes deberán exprimir al máximo todos sus conocimientos y habilidades para conseguir sacar adelante un proyecto en menos de 48 horas. ¡Así de simple!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pkcWHjg43vM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div class="intrinsic-container ratio-16x9">
+	<iframe src="https://www.youtube.com/embed/pkcWHjg43vM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 Prometemos nervios, llantos y risas nerviosas pero también diversión, conversaciones interesantes y una experiencia única. En nuestra jam podrás conocer a gente con la que trabajar, ampliar tus conocimientos y habilidades en todas las áreas del desarrollo y vivir de primera mano el proceso de creación de un juego.
 Además, la MálagaJam 7 coincide con la [Global Game Jam](https://globalgamejam.org/) y seguirá el mismo tema que esta por lo que, desde nuestra sede, podrás ser parte de este movimiento internacional de creadores.
 
@@ -78,7 +82,10 @@ Las Madrinas serán jammers con experiencia que estarán ahí para resolver cual
 El precio de la entrada es de 5€ e incluye un puesto de trabajo, conexión a internet, dos cenas, dos almuerzos y una camiseta.
 ¿A qué esperas? ¡Te esperamos el último fin de semana de enero!
 
-<ul class="actions">
-	<li><a href="#" class="button special align-center">Consigue tu entrada</a></li>
+<ul class="actions align-center">
+	<li><a href="#" class="button special big">Consigue tu entrada</a></li>
 </ul>
+<div class="intrinsic-container ratio-16x9">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.9844574930457!2d-4.4413097844059495!3d36.69891138109388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f77fe30405e5%3A0xb44f7091e40acc9e!2sPolo+Digital+Content+M%C3%A1laga!5e0!3m2!1sen!2ses!4v1515614769729" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
