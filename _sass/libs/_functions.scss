@@ -32,3 +32,10 @@
 @function _size($keys...) {
 	@return val($size, $keys...);
 }
+
+/// Ratios
+/// Returns the ratio for specified dimensions.
+///
+@function ratio($width, $height) {
+	@return percentage( $height / $width);
+}
