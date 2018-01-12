@@ -1627,6 +1627,10 @@ $baseurl: '{{ site.baseurl }}/images';
 				display: none;
 			}
 		}
+		
+		ul.actions li {
+			display: block
+		}
 	}
 
 	body.is-loading {
