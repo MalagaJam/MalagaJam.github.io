@@ -27,6 +27,11 @@ Todo el mundo es bienvenido a la MalagaJam Weekend 7. No importa la edad, el gé
 
 No importa si nunca has creado un videojuego o si no tienes a nadie con quien asistir. La primera parte del evento está centrada en la formación de equipos y nuestra experiencia nos ha enseñado que siempre hay alguien que necesita tus habilidades así como profesionales a los que les encanta enseñar a gente con menos experiencia.
 
+### Sección Junior
+Otra de las novedades de la séptima edición es la incorporación de un apartado específico para los más jóvenes. Si tienes entre 14 y 18 años, te apetece compartir el fin de semana con creadores de tu misma edad y contar con la asistencia de desarrolladores profesionales, la Sección Junior es para tí.
+
+Por supuesto, prima la libertad y, si prefieres asistir en la sección general, no hay problema. En esta Jam lo importante es el talento, no la edad.
+
 ### Proyecto Madrinas
 Debido a nuestro compromiso por hacer mejores juegos, en esta edición iniciamos el ‘Proyecto Madrinas’, una iniciativa cuyo fin último es promover la igualdad en el ámbito del desarrollo.
 
