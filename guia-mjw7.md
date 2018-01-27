@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Guía Global Game Jam 10
+title: Guía Global Game Jam 2018
 subtitle: Todo lo que necesitas saber para subir tu juego y no morir en el intento
 excerpt: 
 headerImage: weekend7-banner.jpg
 permalink: guiaweekend7
 ---
 
-A ver, vamo a calmarno y a hacer las cosas como MonEsVol manda. Aquí encontrarás todo lo necesario para que tu participación en la Global Game Jam 10 quede registrada para la posteridad. Pero, que no te tiemblen las piernas, que es muy fácil.
+A ver, vamo a calmarno y a hacer las cosas como MonEsVol manda. Aquí encontrarás todo lo necesario para que tu participación en la Global Game Jam 2018 quede registrada para la posteridad. Pero, que no te tiemblen las piernas, que es muy fácil.
 
 ## 1. Regístrate como participante de [#MJW7](https://twitter.com/search?q=%23MJW7)
 Tiene pinta de que somos la sede más multitudinaria de España, pero si no nos inscribimos todos en la página oficial de la Global nos vamos a acabar comiendo los mocos. Por suerte, esto tiene fácil solución. Tan sólo **hay que crearse una cuenta en la web e inscribirse como participantes en nuestra sede local: MálagaJam Weekend VII**. La buena; la fetén. 
