@@ -2,7 +2,7 @@
 layout: page
 title: MálagaJam Weekend 8
 subtitle: Conoce gente, aprende y crea un videojuego… ¡En menos de 48 horas!</br>Del 6 al 8 de julio
-excerpt: 
+excerpt: Conoce gente, aprende y crea un videojuego… ¡En menos de 48 horas! Del 6 al 8 de julio 
 buttonUrl: https://malagajam.tidyhq.com/public/schedule/events/19865-malagajam-weekend-viii
 buttonText: Consigue tu entrada
 permalink: weekend8
