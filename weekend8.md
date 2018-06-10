@@ -77,7 +77,7 @@ Por supuesto, prima la libertad y, si prefieres asistir en la sección general, 
 ### Compra tu entrada
 El precio de la entrada es de 5€ e incluye un puesto de trabajo, conexión a internet y una camiseta.
 
-¿A qué esperas? ¡Te esperamos el último fin de semana de enero!
+¿A qué esperas? ¡Te esperamos, que los juegos no se van a hacer solos!
 
 <ul class="actions align-center">
 	<li><a href="https://malagajam.tidyhq.com/public/schedule/events/19865-malagajam-weekend-viii" class="button special big">Consigue tu entrada</a></li>
