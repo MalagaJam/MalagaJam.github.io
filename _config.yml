@@ -20,7 +20,7 @@ social:
   #google-plus-square: https://plus.google.com/u/0/+<username>
   email: mailto:info@malagajam.com
   #flickr:
-  #instagram:
+  instagram: https://www.instagram.com/malagajam/
   youtube-square: https://www.youtube.com/channel/UCmQ_zibc3cteype4pYYWj0w
   #spotify:
   #stack-overflow:
@@ -41,7 +41,8 @@ social:
   #linux:
   #bitbucket-square:
   #vk:
-  slack: https://jamses.slack.com/
+  discord: https://discord.gg/6Q3DKDT
+  #slack: https://jamses.slack.com/
   #vine:
   #weixin:
   #yelp:
