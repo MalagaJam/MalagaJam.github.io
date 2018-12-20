@@ -1,109 +1,366 @@
----
-layout: landing
----
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="https://malagajam.tidyhq.com/public/memberships/new" class="button special">Únete</a></li>
-								<li><a href="/weekend8" class="button">MálagaJam Weekend 8</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Conócenos</a>
-					</section>
+<!doctype html>
+<html>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Posicionando a España como fuente de talento<br />
-								en el desarrollo de videojuegos</h2>
-								<p>Mediante la organización de actividades, charlas y encuentros,<br />
-								MálagaJam pretende ser un nexo de unión para personas creativas<br />
-								de cualquier disciplina y nivel de experiencia en videojuegos</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gamepad major style1"><span class="label">Diseño</span></span></li>
-								<li><span class="icon fa-music major style2"><span class="label">Música</span></span></li>
-								<li><span class="icon fa-heart major style3"><span class="label">Jammers</span></span></li>
-								<li><span class="icon fa-paint-brush major style1"><span class="label">Gráficos</span></span></li>
-								<li><span class="icon fa-code major style2"><span class="label">Código</span></span></li>
-							</ul>
-						</div>
-					</section>
+<head>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Conectar personas</h2>
-								<p>Generar sinergía entre profesionales, dar apoyo a los creadores amateurs y proporcionar una base a todos los interesados son los tres pilares básicos de MálagaJam</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Fomentar la diversidad</h2>
-								<p>En MálagaJam realizamos un esfuerzo activo y constante por dar visibilidad y apoyo, tanto en nuestras actividades como durante la comunicación, a las mujeres desarrolladoras así como a las personas con diversidad funcional, racializadas o del colectivo LGTBI+</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Apoyar a todos los roles del sector</h2>
-								<p>Somos conscientes de que no todo es programación y por eso todos los roles y disciplinas del sector son tratados de forma individual y específica</p>
-							</div>
-						</section>
-					</section>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="author" content="factor ñ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Conoce todas nuestras actividades</h2>
-								<p>Diversos tipos de game jams, charlas, talleres, eventos de formación.<br />
-								¡Más de 10 encuentros al año dedicados a los videojuegos!</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-gamepad">
-									<h3>Weekend</h3>
-									<p>Desarrolladores de todos los niveles y disciplinas se reunen durante un fin de semana con un objetivo común: crear un videojuego y mejorar sus habilidades. En MálagaJam organizamos tanto jams locales como internacionales. ¡Contamos hasta con una versión 'Junior' para animar a los más pequeños!</p>
-								</li>
-								<li class="icon fa-book">
-									<h3>Workshop</h3>
-									<p>¡Aprende de los que más saben! Cuatro veces al año organizamos nuestros talleres, sesiones durante las cuales desarrolladores profesionales de todas las disciplinas comparten sus conocimientos en temas específicos.</p>
-								</li>
-								<li class="icon fa-comments">
-									<h3>Masterclass</h3>
-									<p>Los videojuegos son un arte multidisciplinar, por eso en nuestras masterclasses todo el mundo tiene cabida, desde periodistas a empresarios pasando por productores y guionistas comparten su perspectiva profesional de la industria.</p>
-								</li>
-								<li class="icon fa-fort-awesome">
-									<h3>Playday</h3>
-									<p>Los playdays son jornadas dedicadas a nuestros socios en las que tendrán la oportunidad de mostrar su juego y conseguir feedback de los asistentes. Una actividad tan divertida como formativa que pretende ofrecer un espacio seguro para testear el trabajo.</p>
-								</li>
-								<li class="icon fa-handshake-o">
-									<h3>Postmortem</h3>
-									<p>La mejor forma de conseguir un aprendizaje profundo es el análisis y la reflexión. Por eso, varias semanas después de cada jam organizamos un encuentro enfocado en compartir experiencias y ayudarnos entre todos a crecer como profesionales.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Colaboraciones</h3>
-									<p>Para asegurarnos de ser inclusivos y fomentar correctamente la diversidad, en MálagaJam llevamos adelante diversas iniciativas con otras asociaciones de videojuegos sin ánimo de lucro dirigidas a dar visibilidad a diferentes minorias.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>¿Te interesa?</h2>
-								<p> Hazte socio y disfruta de todas nuestras actividades o patrocínanos para que podamos seguir fomentando la profesionalidad de la industria.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="https://malagajam.tidyhq.com/public/memberships/new" class="button fit special">¡Únete!</a></li>
-								<li><a href="https://malagajam.tidyhq.com/public/memberships/new" class="button fit">¡Apóyanos!</a></li>
-								<li><a href="/prensa" class="button fit">MálagaJam en la prensa</a></li>
-							</ul>
-						</div>
-					</section>
+</head>
+
+<body>
+
+    <article>
+        <header>
+            <nav>
+                <img src="img/malagajam-logo.svg" title="MálagaJam." alt="MálagaJam" width="125">
+                <ul class="padre-flex flex-justificado">
+                    <li><a href="#malagajam">Haz un juego</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <!-- li><a>Prensa</a></li> -->
+                </ul>
+            </nav>
+        </header>
+        <section class="diapo cabecera">
+            <div class="columnas centrado-vertical">
+                <div class="columna columna-50">
+                    <h1>MálagaJam Weekend 9</h1>
+                    <h2 class="h2-peq"><i class="fa fa-calendar-o" aria-hidden="true"></i> 25 - 27 enero ·
+                        <a href="#mapa"><i class="fa fa-map-marker" aria-hidden="true"></i> Polo de
+                            Contenidos
+                            Digitales</a></h2>
+                    <a class="boton" href="http://entradium.com/es/entradas/malagajam-weekend-9?r=Web" target="_blank">comprar
+                        entradas</a>
+                </div>
+                <div class="columna columna-50">
+                    <img width="100%" src="img/img-header.svg" title="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas."
+                        alt="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas.">
+                </div>
+
+            </div>
+            <small class="copy-caro"><a rel="nofollow" target="_blank" href="https://www.instagram.com/carolcc26/">Ilustración:
+                    Carolina Campos</a></small>
+        </section>
+
+        <section name="patrocinadores" class="franja-blanca fullwidth barrido-derecha">
+            <ul class="patrocinadores">
+                <li><a href="http://www.malaga.eu/" rel="nofollow" target="_blank"><img width="150" src="img/logo-aytomalaga.jpg"
+                            title="Ayuntamiento de Málaga" alt="Ayuntamiento de Málaga"></a></li>
+                <li><a href="https://www.promalaga.es/" rel="nofollow" target="_blank"><img width="150" src="img/logo-promalaga.jpg"
+                            title="Promálaga" alt="Promálaga"></a></li>
+                <li><a href="http://www.mastervideojuegos.uma.es/" rel="nofollow" target="_blank"><img width="150" src="img/logo-masteruma.jpg"
+                            title="Máster en Creación de Videojuegos Propio de la Universidad de Málaga" alt="Máster en Creación de Videojuegos Propio de la Universidad de Málaga"></a></li>
+                <li><a href="https://www.polodigital.eu/" rel="nofollow" target="_blank"><img width="150" src="img/logo-polodigital.jpg"
+                            title="Polo de Contenidos Digitales" alt="Polo de Contenidos Digitales"></a></li>
+                <li><a href="https://femdevs.org/" rel="nofollow" target="_blank"><img width="150" src="img/logo-femdevs.jpg"
+                            title="Femdevs" alt="Femdevs"></a></li>
+                <li><a href="https://www.gaymer.es/es/" rel="nofollow" target="_blank"><img width="150" src="img/logo-gaymer.jpg"
+                            title="Gaymer" alt="Gaymer"></a></li>
+                <li><a href="https://globalgamejam.org/" rel="nofollow" target="_blank"><img width="150" src="img/logo-ggj.jpg"
+                            title="Global Game Jam" alt="Global Game Jam"></a></li>
+            </ul>
+        </section>
+
+        <section name="malagajam">
+            <div class="columnas diapo centrado-vertical">
+                <div class="columna columna-50">
+                    <h2>¿Qué es una <em>game jam</em>?</h2>
+                    <p>
+                        Tienes 48 horas para <strong>desarrollar un videojuego basado en un tema</strong> específico
+                        que daremos al
+                        inicio del evento. Al final, cada equipo presentará su juego ante el resto y tras la votación
+                        de todos los participantes se premiarán los mejores juegos.
+                    </p>
+                    <p>
+                        No importa <strong>si nunca has creado un videojuego</strong> o si no tienes a nadie con quien
+                        asistir, la primera parte del evento está centrada en la formación de equipos y <strong>siempre
+                            hay alguien
+                            que necesita tus habilidades:</strong> ya sean programar, dibujar, componer, modelar,
+                        escribir
+                        o ¡contar chistes!
+                    </p>
+                </div>
+                <div class="columna columna-50">
+                    <div class="marco-foto"><img src="img/foto7.jpg"></div>
+
+                </div>
+            </div>
+            <div class="columnas diapo centrado-vertical columnas-invertido">
+                <div class="columna columna-50 ">
+                    <h2>MálagaJam Weekend</h2>
+                    <p>
+                        Llevamos desde 2015 organizando <strong>una de las mejores <em>gamejams</em> de España.</strong>
+                        En nuestro evento conocerás a muchos desarrolladores profesionales y aficionados,
+                        tanto malagueños como de otros puntos de España, y te podrás nutrir de su experiencia y
+                        conocimientos.
+                    </p>
+                    <p>
+                        MálagaJam Weekend 9 en concreto es <strong>sede local de <a rel="nofollow" target="_blank" href="https://globalgamejam.org/">Global
+                                GameJam,</a></strong> la más grande
+                        de España y una
+                        de las principales de Europa. Ese mismo fin de semana, a lo largo de todo el globo, miles de
+                        personas se reúnen para desarrollar videojuegos bajo la misma temática.
+                    </p>
+                </div>
+                <div class="columna columna-50 ">
+                    <div class="marco-foto marco-foto-alt">
+                        <img src="img/foto6.jpg">
+                        <img src="img/foto1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="columnas columnas diapo centrado-vertical">
+                <div class="columna columna-50 ">
+                    <h2>MálagaJam Junior</h2>
+                    <p>
+                        Si tienes entre 14 y 18 años, te apetece compartir el fin de semana con creadores de tu misma
+                        edad y contar con la asistencia de desarrolladores profesionales, la Sección Junior es para ti.
+                    </p>
+                    <p>
+                        Por supuesto, prima la libertad y, si prefieres asistir en la sección general, no hay problema.
+                        En esta Jam lo importante es el talento, no la edad.
+                    </p>
+                    <h2>Comprometidos con la diversidad</h2>
+                    <p>
+                        Uno de nuestros objetivos principales es fomentar la diversidad de género, funcional, racial y
+                        de orientación sexual. Las instalaciones del evento están preparadas para facilitar el acceso a
+                        personas con movilidad reducida y procuramos un entorno de desarrollo seguro para todes.
+                    </p>
+                    <p>
+                        Contamos con la presencia de las asociaciones <a href="https://femdevs.org/" rel="nofollow"
+                            target="_blank">Femdevs</a> y <a href="https://www.gaymer.es/es/" rel="nofollow" target="_blank">Gaymer</a>,
+                        que durante el evento estarán disponibles para aconsejaros en cuestión de
+                        representación. Ambas asociaciones premiarán al final del evento a los juegos con mejor
+                        representación.
+                    </p>
+                </div>
+                <div class="columna columna-50">
+                    <div class="marco-foto">
+                        <img src="img/foto5.jpg">
+                        <img src="img/foto3.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="franja-blanca fullwidth franja-video barrido-derecha">
+            <div class="video empujado-arriba">
+                <div class="embed-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/yHP84dZEtTg?controls=0"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <small>Vídeo de MálagaJam Weekend VII</small>
+            </div>
+            <div class="cuenta-atras" name="agenda">
+                <h2>Let's make some games! 🔥</h2>
+                <ul id="cuenta-atras"></ul>
+                <a class="boton" href="http://entradium.com/es/entradas/malagajam-weekend-9?r=Web" target="_blank">comprar
+                    entradas</a>
+            </div>
+            <h2 class="h2-big">Agenda</h2>
+            <div class="columnas diapo-peq">
+                <div class="columna columna-75">
+                    <div class="horario">
+
+                        <div class="columnas">
+                            <div class="columna columna-33">
+                                <h3>Viernes 25</h3>
+                                <ul>
+                                    <li><b>15:00</b> Apertura y check-in </li>
+                                    <li><b>15:30</b> Formación de grupos </li>
+                                    <li><b>17:00</b> Inicio del desarrollo</li>
+                                    <li><b>21:00</b> Cena</li>
+                                    <li><b>02:00</b> Cierre instalaciones **</li>
+                                </ul>
+                            </div>
+                            <div class="columna columna-33">
+                                <h3>Sábado 26</h3>
+                                <ul>
+                                    <li><b>08:00</b> Apertura *</li>
+                                    <li><b>14:00</b> Almuerzo</li>
+                                    <li><b>15:00</b> Inscripción de proyectos</li>
+                                    <li><b>21:00</b> Cena</li>
+                                    <li><b>02:00</b> Cierre instalaciones**</li>
+                                </ul>
+                            </div>
+                            <div class="columna columna-33">
+                                <h3>Domingo 27</h3>
+                                <ul>
+                                    <li><b>08:00</b> Apertura*</li>
+                                    <li><b>14:00</b> Almuerzo</li>
+                                    <li><b>15:00</b> Entrega de proyectos</li>
+                                    <li><b>17:00</b> Presentaciones y votaciones</li>
+                                    <li><b>20:00</b> Entrega de premios</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <small>
+                            *Para los participantes de la Jam Junior la hora de apertura será a las 10:00<br />
+                            **Para los participantes de la Jam Junior la hora de cierre será a las 19:00
+                        </small>
+                    </div>
+                </div>
+                <div class="columna columna-25">
+                    <div class="post-it">
+                        <div>
+                            <h4>No olvides:</h4>
+                            <ul class="regular-ul">
+                                <li>Ordenador</li>
+                                <li>Software instalado</li>
+                                <li>Otras herramientas</li>
+                                <li>Multiplicadores</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Nosotros ponemos:</h4>
+                            <ul class="regular-ul">
+                                <li>Comidas</li>
+                                <li>Puesto trabajo</li>
+                                <li>Conexión a internet</li>
+                                <li>¡Camiseta!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columnas diapo-peq" name="mapa">
+                <div class="columna columna-50">
+                    <h2>Cómo llegar</h2>
+                    <p>
+                        El evento tendrá lugar en el Polo de Contenidos Digitales que está en la antigua Tabacalera
+                        junto al Museo del Automóvil y el Museo Ruso.
+                        <br />
+                        <br />
+                        Para llegar lo más cercano son las líneas de bus EMT 7 y 15, aunque otras líneas que pasen por
+                        Avd. Velázquez y el Mercado de Huelin son válidas. Las estaciones de Metro más cercanas son la
+                        del Torcal y Princesa Huelin. Cerca hay también una estación de MálagaBici.
+                    </p>
+                    <h2>Alojamiento y transporte</h2>
+                    <p>
+                        ¿Vienes de fuera de Málaga? Contamos con descuentos especiales en hostels y para viajar en tren
+                        con Renfe. Ponte en contacto con nosotros vía mail <a target="_blank" href="mailto:info@malagajam.com">info@malagajam.com</a>
+                        para darte todos los
+                        detalles.
+                    </p>
+                </div>
+                <div class="columna columna-50">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12795.938542600377!2d-4.4391211!3d36.6989071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb44f7091e40acc9e!2sPolo+Contenidos+Digitales+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1545071311426"
+                        width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="fullwidth" id=" footer">
+            <ul>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://twitter.com/malagajam">
+                        <img alt="Twitter" src="img/twitter.svg" width="32">
+                    </a>
+                </li>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://facebook.com/malagajam">
+                        <img alt="facebook" src="img/facebook.svg" width="32">
+                    </a>
+                </li>
+                <li>
+                    <a rel="nofollow" target="_blank" href="mailto:info@malagajam.com">
+                        <img alt="Correo electrónico" src="img/mail.svg" width="32">
+                    </a>
+                </li>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://www.instagram.com/malagajam/">
+                        <img alt="instagram.svg" src="img/instagram.svg" width="32">
+                    </a>
+                </li>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://www.youtube.com/channel/UCmQ_zibc3cteype4pYYWj0w">
+                        <img alt="youtube.svg" src="img/youtube.svg" width="32">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64733208-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-64733208-1');
+        </script>
+
+
+
+        <!-- Scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/js/jquery.scrollex.min.js"></script>
+        <script src="/js/jquery.scrolly.min.js"></script>
+        <script src="/js/skel.min.js"></script>
+        <script src="/js/util.js"></script>
+        <!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+        <script src="/js/main.js"></script>
+
+        <script>
+            /*smooth scroll*/
+            $(function () {
+                $('a[href*=#]:not([href=#])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
+
+        <script>
+            // Set the date we're counting down to
+            var counliownDate = new Date("Jan 25, 2019 15:30:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+                // Get todays date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = counliownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("cuenta-atras").innerHTML = "<li><span>" + days + "</span>d</li><li><span>" + hours + "</span>h</li><li><span>"
+                    + minutes + "</span>m</li><li><span>" + seconds + "</span>s</li>";
+
+                // If the count down is finished, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("cuenta-atras").innerHTML = "Let's make some games!";
+                }
+            }, 1000);
+        </script>
+
+
+</body>
+
+</html>
