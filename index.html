@@ -9,8 +9,11 @@
     <meta name="author" content="necromic" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:image" content="img/facebook.jpg"><meta property="og:url" content="http://malagajam.com/"><meta property="og:title" content="MálagaJam Weekend 9 · 25,26 y 27 de Enero 2019"><meta property="og:description" content="¡Haz un videojuego en 48 horas!">
-    
+    <meta property="og:image" content="img/facebook.jpg">
+    <meta property="og:url" content="http://malagajam.com/">
+    <meta property="og:title" content="MálagaJam Weekend 9 · 25,26 y 27 de Enero 2019">
+    <meta property="og:description" content="¡Haz un videojuego en 48 horas!">
+
     <link href="style.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
@@ -41,8 +44,8 @@
                     <a class="boton" href="http://entradium.com/es/entradas/malagajam-weekend-9?r=Web" target="_blank">comprar
                         entradas</a>
                 </div>
-                <div class="columna columna-50">
-                    <img width="100%" src="img/img-header.svg" title="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas."
+                <div class="columna columna-50" id="img-header">
+                    <img width="100%" src="img/img-header-1.svg" title="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas."
                         alt="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas.">
                 </div>
 
@@ -329,6 +332,19 @@
                     }
                 });
             });
+
+            /* IMG Header aleatorio */
+
+            $(document).ready(function () {
+
+                var dado = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
+
+                console.log(dado);
+
+                document.getElementById("img-header").innerHTML = '<img width="100%" src="img/img-header-' + dado + '.svg" title="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas." alt="No importa tu nivel de experiencia o disciplina, apúntate ya a la MálagaJam Weekend 9 y haz un juego en 48 horas.">';
+
+            });
+
         </script>
 
         <script>
@@ -364,4 +380,3 @@
 
 
 </body>
-
