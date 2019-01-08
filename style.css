@@ -52,6 +52,13 @@ section{padding: 90px 0;}
 	animation-fill-mode: forwards; /* El css se queda en el último frame de la animación*/
 }
 
+@keyframes animation_fadeIn{
+	0%   {transform: translateY(32px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+}
+
+#img-header img{opacity: 0; animation: animation_fadeIn 1s ease 0.5s; 	animation-fill-mode: forwards; }
+
 .franja-video{margin-top: 150px;}
 .video {max-width: 615px; display: block; margin: 0 auto; transform: translateY(-220px); margin-bottom: -220px}
 
