@@ -24,8 +24,9 @@ img {max-width: 100%; height: auto;}
 .columna-75 {width: 75%;}
 .columnas-invertido {flex-direction: row-reverse;}
 
-.patrocinadores{display: flex; flex-wrap: wrap; justify-content: center;}
+.patrocinadores{display: flex; flex-wrap: wrap;}
 .patrocinadores li{display: inline-block; flex: 25%; max-width: 25%; padding: 15px 0;}
+.patrocinadores.colaboradores li{flex: 20%; max-width: 20%;}
 .patrocinadores li img{width: 100%; transition: transform 0.2s ease}
 .patrocinadores li:hover img{transform: scale(0.98);}
 
@@ -128,7 +129,8 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 	.cabecera img{padding: 1.5rem; padding-top: 4rem; max-width: 500px;}
 	h1 {font-size: 54px;}
 	.marco-foto{width: 80vw; margin: 10vw auto;}
-	.patrocinadores li{flex: 33.3333%; max-width: 33.333%;}
+	.patrocinadores li, .patrocinadores.colaboradores li{flex: 33.3333%; max-width: 33.333%;}
+	.patrocinadores{ justify-content: center;}
 	iframe{margin-top: 30px;}
 	.copy-caro{transform: translateY(0); padding: 16px} 
 }
@@ -146,5 +148,5 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 	.horario .columna:last-child ul {border-bottom: none}
 	.cabecera .h2-peq a{display: inline-block;}
 	#cuenta-atras li {min-width: 4rem; padding: 0 15px; font-size: x-large}
-	.patrocinadores li{flex: 50%; max-width: 50%;}
+	.patrocinadores li, .patrocinadores.colaboradores li{flex: 50%; max-width: 50%;}
 }
