@@ -93,6 +93,10 @@ h3{font-size: medium; text-transform: uppercase}
 .boton:hover{ background: #FF73A0; transform: translateY(-2px); box-shadow: 0 6px 8px 0 #CCD7DE; opacity: 1;}
 .boton:active{background: #f4457e; filter: brightness(1);}
 
+.boton.boton-secondary{font-weight: 700; background: none; font-size: 0.95em; box-shadow: none; color: #FF6194; margin: 16px 0}
+.boton.boton-secondary:hover{background: #fff ; box-shadow: 0 2px 8px 0 #CCD7DE}
+.boton.boton-secondary:active{opacity: 0.90;}
+
 .cuenta-atras{padding: 120px 0 180px 0; text-align: center}
 #cuenta-atras {display: block; text-align: center; padding: 45px 0}
 #cuenta-atras li{min-width: 8rem; padding: 0 30px;display:inline-block; font-size: xx-large; font-family: 'Rubik', sans-serif;}
