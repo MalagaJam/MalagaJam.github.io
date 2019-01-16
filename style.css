@@ -31,7 +31,7 @@ img {max-width: 100%; height: auto;}
 .patrocinadores li:hover img{transform: scale(0.98);}
 
 section{padding: 90px 0;}
-.diapo{min-height: 75vh}
+.diapo{min-height: 75vh; margin: 120px 0;}
 .diapo-peq{padding: 45px 0}
 .centrado-vertical{align-items: center;}
 
@@ -126,10 +126,15 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 
 
 /****************************** MEDIA QUERIES ******************************/
+@media all and (max-width: 1400px){
+	body{width: 960px;}
+}
+
 @media all and (max-width: 992px){ /* TABLET */
 	.columnas {flex-wrap: wrap;}
 	.columna {width: 100% !important;}
 	.columna-25 {width: 50% !important;}
+	.diapo{margin: 90px 0;}
 	.horario .columna {width: 33.333% !important;}
 	.horario ul {border-right: 1px solid #dadada}
 	.horario .columna:last-child ul {border-right: none}
