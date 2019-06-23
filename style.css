@@ -1,7 +1,7 @@
 /************************************ RESET ************************************************/
 * {margin: 0; padding: 0; border: 0; outline: 0; list-style: none; text-decoration: none; box-sizing: border-box;}
 body {display: block; position: relative; width: 1200px; max-width: 90%; margin: 0 auto; overflow-x: hidden;}
-body {font-family: 'Open Sans', sans-serif; font-size: medium; background: #a3f5f2; color: #233441; line-height: 150%}
+body {font-family: 'Open Sans', sans-serif; font-size: medium; background: #fff2d8; color: #233441; line-height: 150%}
 img {max-width: 100%; height: auto;}
 
 
@@ -30,9 +30,9 @@ img {max-width: 100%; height: auto;}
 .patrocinadores li img{width: 100%; transition: transform 0.2s ease}
 .patrocinadores li:hover img{transform: scale(0.98);}
 
-section{padding: 90px 0;}
-.diapo{min-height: 75vh}
-.diapo-peq{padding: 45px 0}
+section{position:relative; padding: 90px 0; display: flex; justify-content: center; flex-direction: column}
+.diapo{min-height: 100vh}
+.diapo-peq{padding: 75px 0}
 .centrado-vertical{align-items: center;}
 
 .fullwidth {padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%); margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}
@@ -53,7 +53,7 @@ section{padding: 90px 0;}
 }
 
 .franja-video{margin-top: 150px;}
-.video {max-width: 615px; display: block; margin: 0 auto; transform: translateY(-220px); margin-bottom: -220px}
+.video {WIDTH: 100%; max-width: 615px; display: block; margin: 0 auto; transform: translateY(-300px); margin-bottom: -300px}
 
 p{padding-bottom: 18px; max-width: 32rem;}
 
@@ -61,14 +61,17 @@ a{color: #233441; text-decoration: underline; transition: all 0.2s ease}
 a:hover{opacity: 0.5;}
 
 .post-it{background: #54E0DB; width: 100%; min-height: 75%; box-shadow: 2px 2px 8px 0 #CCD7DE; padding: 1rem;}
-.post-it ul{padding: 0.5rem 1rem;}
+.post-it ul{padding: 0.5rem 1rem; padding-bottom: 1.2rem;}
+.post-it li {padding-left: 10px;}
 
 .marco-foto{ box-shadow: inset 0 0 0 12px #FF6194; transform: translate(32px, 28px); max-width:520px}
 .marco-foto img{margin: 0; padding: 0;transform: translate(-32px, -28px);}
 .marco-foto-alt{transform: translate(-32px, 28px);}
 .marco-foto-alt img{transform: translate(32px,-28px);}
+.backimg{background-repeat: no-repeat; background-attachment: fixed}
+.cabecera{background-image: url(img/gamer.png); background-position: right 50px; text-align: center}
 
-.copy-caro{display: block; text-align: right; transform: translateY(64px)} 
+.copy-palma{display: block; text-align: left; position: absolute; bottom: 5%; left: 5%;} 
 
 
 
@@ -86,6 +89,10 @@ h3{font-size: medium; text-transform: uppercase}
 .boton:hover{ background: #FF73A0; transform: translateY(-2px); box-shadow: 0 6px 8px 0 #CCD7DE; opacity: 1;}
 .boton:active{background: #f4457e; filter: brightness(1);}
 
+.boton.boton-secondary{font-weight: 700; background: none; font-size: 0.95em; box-shadow: none; color: #FF6194; margin: 16px 0}
+.boton.boton-secondary:hover{background: #fff ; box-shadow: 0 2px 8px 0 #c5c0b9}
+.boton.boton-secondary:active{opacity: 0.90;}
+
 .cuenta-atras{padding: 120px 0 180px 0; text-align: center}
 #cuenta-atras {display: block; text-align: center; padding: 45px 0}
 #cuenta-atras li{min-width: 8rem; padding: 0 30px;display:inline-block; font-size: xx-large; font-family: 'Rubik', sans-serif;}
@@ -95,7 +102,7 @@ h3{font-size: medium; text-transform: uppercase}
 .horario ul{padding-top: 0.5rem; padding-bottom: 1rem; margin-bottom: 1rem;}
 .horario li{display: flex; padding-right: 0.5rem; padding-bottom: 0.5rem;}
 
-.regular-ul {padding-left: 2rem;}
+.regular-ul {padding-left: 2rem; padding-bottom: 1rem;}
 .regular-ul li{list-style: square}
 
 small{color: #a6b7c2}
@@ -106,6 +113,7 @@ small{color: #a6b7c2}
 
 nav {padding: 30px 0; display: flex; justify-content: space-between; align-items: flex-end;}
 nav ul li {display: inline-block; padding-left: 45px}
+header{position: absolute; width: 100%; z-index: 999;}
 
 
 /************************************ FOOTER ************************************************/
@@ -132,7 +140,6 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 	.patrocinadores li, .patrocinadores.colaboradores li{flex: 33.3333%; max-width: 33.333%;}
 	.patrocinadores{ justify-content: center;}
 	iframe{margin-top: 30px;}
-	.copy-caro{transform: translateY(0); padding: 16px} 
 }
 @media all and (max-width: 767px){ /* MOBILE */
 	.columna, .horario .columna {width: 100% !important;}
@@ -141,6 +148,9 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 	nav ul li{padding: 0 1rem;}
 	h1 {font-size: 48px;}
 	footer img{width: 22px;}
+	.diapo{padding: 75px 0}
+	.backimg{background-size: cover;}
+	.cabecera {background-position: 75% 50px}
 	.marco-foto{ transform: translate(24px, 28px);}
 	.marco-foto-alt{ transform: translate(-24px, 28px);}
 	.post-it{flex-direction: column; }
