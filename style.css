@@ -4,6 +4,8 @@ body {display: block; position: relative; width: 1200px; max-width: 90%; margin:
 body {font-family: 'Open Sans', sans-serif; font-size: medium; background: #fff2d8; color: #233441; line-height: 150%}
 img {max-width: 100%; height: auto;}
 
+html {box-shadow: inset 0 0 0 6px #54E0DB}
+
 
 
 /************************************ iFrames ************************************************/
@@ -24,11 +26,12 @@ img {max-width: 100%; height: auto;}
 .columna-75 {width: 75%;}
 .columnas-invertido {flex-direction: row-reverse;}
 
-.patrocinadores{display: flex; flex-wrap: wrap;}
-.patrocinadores li{display: inline-block; flex: 20%; max-width: 20%; padding: 15px 0;}
-.patrocinadores.colaboradores li{flex: 16.6667%; max-width: 16.6667%;}
+.patrocinadores{display: flex; flex-wrap: wrap; max-width: 860px; justify-content: center; margin: 0 auto;}
+.patrocinadores li{display: inline-block; flex: 25%; max-width: 25%; padding: 5px 10px;}
+.patrocinadores.colaboradores li{flex: 20%; max-width: 20%;}
 .patrocinadores li img{width: 100%; transition: transform 0.2s ease}
 .patrocinadores li:hover img{transform: scale(0.98);}
+.patrocinadores + small {border-top: 1px solid aliceblue; padding-top: 30px;}
 
 section{position:relative; padding: 90px 0; display: flex; justify-content: center; flex-direction: column}
 .diapo{min-height: 100vh}
@@ -37,9 +40,9 @@ section{position:relative; padding: 90px 0; display: flex; justify-content: cent
 
 .fullwidth {padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%); margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}
 .franja-blanca{background-color: #fff; position: relative;}
-.franja-blanca::before, .franja-blanca::after{content: ""; background-image: url(img/flecos.svg); display: block; background-repeat-y: no-repeat; width: 100vw; height: 16px; position: absolute; left: 0;}
+/*.franja-blanca::before, .franja-blanca::after{content: ""; background-image: url(img/flecos.svg); display: block; background-repeat-y: no-repeat; width: 100vw; height: 16px; position: absolute; left: 0;}
 .franja-blanca::before{top: -16px;}
-.franja-blanca::after{bottom: -16px;}
+.franja-blanca::after{bottom: -16px;}*/
 
 @keyframes animation-barrido-derecha{
 	0%   {background-position: 0;}
@@ -59,8 +62,7 @@ section{position:relative; padding: 90px 0; display: flex; justify-content: cent
 
 .fade-in{opacity: 0; animation: animation_fadeIn 1s ease 0.5s; 	animation-fill-mode: forwards; }
 
-.franja-video{margin-top: 150px;}
-.video {WIDTH: 100%; max-width: 615px; display: block; margin: 0 auto; transform: translateY(-300px); margin-bottom: -300px}
+.video {width: 100%; max-width: 615px; display: block; margin: 0 auto; transform: translateY(-300px); margin-bottom: -300px}
 
 p{padding-bottom: 18px; max-width: 32rem;}
 
@@ -77,18 +79,19 @@ a:hover{opacity: 0.5;}
 .marco-foto-alt img{transform: translate(32px,-28px);}
 .backimg{background-repeat: no-repeat; background-attachment: fixed}
 .cabecera{background-image: url(img/gamer.png); background-position: right 50px; text-align: center}
+.cuerpo{background-image: url(img/crew.png); background-position: left bottom; background-size: contain; padding-bottom: 360px;}
 
 .copy-palma{display: block; text-align: left; position: absolute; bottom: 5%; left: 5%;} 
 
 
 
 /************************************ TEXTO ************************************************/
-h1,h2,h3,h4,h5{font-family: 'Rubik', sans-serif; font-weight: bold;}
+h1,h2,h3,h4,h5, .malagajam legend{font-family: 'Rubik', sans-serif; font-weight: bold;}
 
 h1{font-size: 64px; line-height: 100%}
 h2{font-size: larger; padding: 18px 0;}
 h2{font-size: larger; padding: 18px 0;}
-h3{font-size: medium; text-transform: uppercase}
+h3, .malagajam legend{font-size: medium; text-transform: uppercase}
 .h2-peq{font-size: larger; font-weight: normal; font-family: 'Open Sans', sans-serif; }
 .h2-big{font-size: xx-large;}
 
@@ -122,11 +125,90 @@ nav {padding: 30px 0; display: flex; justify-content: space-between; align-items
 nav ul li {display: inline-block; padding-left: 45px}
 header{position: absolute; width: 100%; z-index: 999;}
 
+#main header{position: relative; padding: 5vmax 0;}
+#printer-friendly {display: none;}
 
 /************************************ FOOTER ************************************************/
-footer{padding: 60px; padding-bottom: 90px; background-color: #233441; margin-top: 60px;}
-footer a{ color: #FF6194}
+footer{padding: 60px; padding-bottom: 90px; background-color: #54E0DB; margin-top: 60px;}
+footer a{ color: #233441}
+footer svg{ fill: #233441}
 footer ul{display: flex; justify-content: space-around; align-items: center}
+
+.entry-footer {display: none;}
+.malagajam #civicrm-footer {border: none; transform: scale(0.6); transform-origin: right center;}
+
+
+
+
+/************************************ CiviCRM ************************************************/
+.malagajam .crm-container .crm-section .label{text-align: left;}
+.malagajam .crm-container .help, .malagajam .crm-container #help, .malagajam .crm-container .status{background-color: #fbdca8; border: none; margin: 15px 0 30px; padding: 8px 12px; font-size: small; color: #222;}
+.malagajam .select2-container .select2-choice { filter: none; background-image: none; height: 32px; background-color: #fff; padding: 4px 8px; }
+.malagajam .crm-container fieldset { border-top: none; }
+.malagajam .crm-container fieldset legend { font-family: "Rubik", sans-serif;  font-size: medium; color: auto; }
+.malagajam #crm-container.crm-public input[type="text"],.malagajam  #crm-container.crm-public input[type="password"],.malagajam  #crm-container.crm-public input[type="email"],.malagajam  #crm-container.crm-public select {
+	max-width: auto; padding: 8px 12px; width: calc(100% - 24px); box-shadow: none; margin-bottom: 12px;}
+.malagajam #crm-container.crm-public .calc-value, .malagajam #crm-container.crm-public .content { margin-left: 0;}
+
+.malagajam .crm-container .crm-button.crm-i-button input.crm-form-submit{
+	font-size: 1rem; color: #fff; text-shadow: none; padding: 0; text-transform: uppercase; font-weight: bold;
+}
+
+.malagajam.crm-container a.button,
+.malagajam .crm-container a.button:visited,
+.malagajam .crm-container a.button:link,
+.malagajam .crm-container .ui-dialog-buttonset .ui-button,
+.malagajam .crm-container input[type=button],
+.malagajam .crm-container .crm-button {
+	background: none;
+	  border: none;
+	  border-radius: 4px;
+  	background-color: #FF6194;
+	  padding: 12px 22px !important;
+	  font-size: 1rem; color: #fff; text-shadow: none;
+}
+
+.malagajam .crm-container a, .crm-container a:link, .crm-container a:visited {color: #233441 !important; font-weight: bold;}
+
+.malagajam .crm-i-button > .crm-i {position: static;}
+
+.malagajam .crm-container .crm-error {padding: 12px; }
+.malagajam .crm-container .crm-error ul {padding-left: 1.5rem;}
+.malagajam .crm-container .crm-error li {list-style: circle; padding: 6px 0;}
+
+.malagajam .select2-container{width: 100% !important; min-width: 200px !important;}
+
+.malagajam .form-item, .malagajam .crm-section.entrada-section {display: flex; align-content: center}
+.malagajam .crm-container .crm-section .label {width: auto; min-width: 150px;}
+.malagajam .crm-container .crm-section .content {max-width: 25rem;}
+.malagajam .crm-container.crm-public .select2-container-multi .select2-choices {
+	width: 220px;
+  }
+.malagajam  .description {
+	padding: 15px 0 30px 0;
+	display: block;
+   }
+   
+
+   .malagajam .crm-container .help, .malagajam .crm-container #help, .malagajam .crm-container .status, .malagajam .crm-container  .description{
+	background-color: transparent;
+	padding: 0;
+	margin: 5px 0 10px 0;
+	opacity: 0.5;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 150%;
+   }
+   
+  .malagajam #crm-container.crm-public select {margin-top: 15px;}
+  .malagajam .crm-container  .description {padding: 15px 0 45px; }
+   .malagajam .entry-content #register .crm-event-register-form-block > * {margin-bottom: 45px;}
+ .malagajam .entry-content {max-width: 800px;}
+
+ .malagajam #pricevalue { margin-left: 15px !important; font-weight: bold; display: inline-block; }
+
+.malagajam #crm-container.crm-public  #pricesetTotal { margin: 15px 0 30px 0; }   
+   
 
 
 /****************************** MEDIA QUERIES ******************************/
@@ -144,6 +226,7 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 	.cabecera img{padding: 1.5rem; padding-top: 4rem; max-width: 500px;}
 	h1 {font-size: 54px;}
 	.marco-foto{width: 80vw; margin: 10vw auto;}
+	*[name="patrocinadores"] small {padding-bottom: 30px;}
 	.patrocinadores li, .patrocinadores.colaboradores li{flex: 33.3333%; max-width: 33.333%;}
 	.patrocinadores{ justify-content: center;}
 	iframe{margin-top: 30px;}
@@ -166,4 +249,12 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 	.cabecera .h2-peq a{display: inline-block;}
 	#cuenta-atras li {min-width: 4rem; padding: 0 15px; font-size: x-large}
 	.patrocinadores li, .patrocinadores.colaboradores li{flex: 50%; max-width: 50%;}
+	.cuerpo {padding-bottom: 180px;}
+	html {box-shadow: inset 0 0 0 3px #54E0DB}
+	.video {transform: translateY(-240px); margin-bottom: -240px}
+
+	.malagajam .entry-content #register .crm-event-register-form-block > * {margin-bottom: 30px;}
+	.malagajam .crm-container span.crm-button {float: right !important;}
+	.malagajam .form-item, .malagajam .crm-section.entrada-section {display: initial;}
+	.malagajam .crm-container .crm-section .label, .malagajam #crm-container.crm-public .calc-value, .malagajam #crm-container.crm-public .content { width: 100% }
 }
