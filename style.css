@@ -94,6 +94,7 @@ h2{font-size: larger; padding: 18px 0;}
 h3, .malagajam legend{font-size: medium; text-transform: uppercase}
 .h2-peq{font-size: larger; font-weight: normal; font-family: 'Open Sans', sans-serif; }
 .h2-big{font-size: xx-large;}
+.page h3 {padding: 30px 0 15px}
 
 .boton{display: inline-block; margin-top: 30px; text-transform: uppercase; font-size: 18px; text-align: center; padding: 16px 40px; border-radius: 2px; color: #fff; text-decoration: none; opacity: 1; background: #FF6194; font-weight: bolder; transition: all 0.2s ease;  box-shadow: 0 2px 8px 0 #CCD7DE}
 .boton:hover{ background: #FF73A0; transform: translateY(-2px); box-shadow: 0 6px 8px 0 #CCD7DE; opacity: 1;}
