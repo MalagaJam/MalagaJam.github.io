@@ -1,10 +1,8 @@
 /************************************ RESET ************************************************/
 * {margin: 0; padding: 0; border: 0; outline: 0; list-style: none; text-decoration: none; box-sizing: border-box;}
 body {display: block; position: relative; width: 1200px; max-width: 90%; margin: 0 auto; overflow-x: hidden;}
-body {font-family: 'Open Sans', sans-serif; font-size: medium; background: #fff2d8; color: #233441; line-height: 150%}
+body {font-family: 'Muli', sans-serif; font-size: medium; background: #fff; color: #233441; line-height: 150%}
 img {max-width: 100%; height: auto;}
-
-html {box-shadow: inset 0 0 0 6px #54E0DB}
 
 
 
@@ -38,11 +36,18 @@ section{position:relative; padding: 90px 0; display: flex; justify-content: cent
 .diapo-peq{padding: 75px 0}
 .centrado-vertical{align-items: center;}
 
+.espacio-s {display: block;padding-top: 8px;}
+.espacio-m {display: block;padding-top: 16px;}
+.espacio-l {display: block;padding-top: 32px;}
+.espacio-xl {display: block;padding-top: 64px;}
+
 .fullwidth {padding-left: calc(50vw - 50%); padding-right: calc(50vw - 50%); margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);}
 .franja-blanca{background-color: #fff; position: relative;}
-/*.franja-blanca::before, .franja-blanca::after{content: ""; background-image: url(img/flecos.svg); display: block; background-repeat-y: no-repeat; width: 100vw; height: 16px; position: absolute; left: 0;}
+.franja-blanca::before, .franja-blanca::after{content: ""; background-image: url(img/flecos.svg); display: block; background-repeat-y: no-repeat; width: 100vw; height: 16px; position: absolute; left: 0;}
 .franja-blanca::before{top: -16px;}
-.franja-blanca::after{bottom: -16px;}*/
+.franja-blanca::after{bottom: -16px;}
+
+.cuerpo {background-color: #FF6194; color: #fff}
 
 @keyframes animation-barrido-derecha{
 	0%   {background-position: 0;}
@@ -66,47 +71,46 @@ section{position:relative; padding: 90px 0; display: flex; justify-content: cent
 
 p{padding-bottom: 18px; max-width: 32rem;}
 
-a{color: #233441; text-decoration: underline; transition: all 0.2s ease}
-a:hover{opacity: 0.5;}
+a{color: inherit; text-decoration: underline; transition: all 0.2s ease}
+a:hover{opacity: 0.8;}
 
 .post-it{background: #54E0DB; width: 100%; min-height: 75%; box-shadow: 2px 2px 8px 0 #CCD7DE; padding: 1rem;}
 .post-it ul{padding: 0.5rem 1rem; padding-bottom: 1.2rem;}
 .post-it li {padding-left: 10px;}
 
+/*
 .marco-foto{ box-shadow: inset 0 0 0 12px #FF6194; transform: translate(32px, 28px); max-width:520px}
 .marco-foto img{margin: 0; padding: 0;transform: translate(-32px, -28px);}
 .marco-foto-alt{transform: translate(-32px, 28px);}
-.marco-foto-alt img{transform: translate(32px,-28px);}
-.backimg{background-repeat: no-repeat; background-attachment: fixed}
-.cabecera{background-image: url(img/gamer.png); background-position: right 50px; text-align: center}
-.cuerpo{background-image: url(img/crew.png); background-position: left bottom; background-size: contain; padding-bottom: 360px;}
+.marco-foto-alt img{transform: translate(32px,-28px);}*/
 
-.copy-palma{display: block; text-align: left; position: absolute; bottom: 5%; left: 5%;} 
+.copyright{display: block; text-align: left; position: absolute; bottom: 50%; right: 5px; transform-origin: 50%; transform:rotate(90deg);} 
 
 
 
 /************************************ TEXTO ************************************************/
-h1,h2,h3,h4,h5, .malagajam legend{font-family: 'Rubik', sans-serif; font-weight: bold;}
+h1,h2,h3,h4,h5, .malagajam legend{font-family: 'Muli', sans-serif; font-weight: bold;}
 
-h1{font-size: 64px; line-height: 100%}
+h1{font-size: 64px; line-height: 120%}
 h2{font-size: larger; padding: 18px 0;}
 h2{font-size: larger; padding: 18px 0;}
 h3, .malagajam legend{font-size: medium; text-transform: uppercase}
-.h2-peq{font-size: larger; font-weight: normal; font-family: 'Open Sans', sans-serif; }
+.h2-peq{font-size: larger; font-weight: normal; font-family: 'Muli', sans-serif; }
 .h2-big{font-size: xx-large;}
 .page h3 {padding: 30px 0 15px}
 
-.boton{display: inline-block; margin-top: 30px; text-transform: uppercase; font-size: 18px; text-align: center; padding: 16px 40px; border-radius: 2px; color: #fff; text-decoration: none; opacity: 1; background: #FF6194; font-weight: bolder; transition: all 0.2s ease;  box-shadow: 0 2px 8px 0 #CCD7DE}
-.boton:hover{ background: #FF73A0; transform: translateY(-2px); box-shadow: 0 6px 8px 0 #CCD7DE; opacity: 1;}
-.boton:active{background: #f4457e; filter: brightness(1);}
+.icono {width: 24px; height: 24px; transform: translateY(6px); display: inline-block; background-size: contain; padding: 2px; margin-right: 5px; line-height: inherit;}
+.ico-fecha{background-image: url("img/ico-fecha.svg");}
+.ico-lugar{background-image: url("img/ico-lugar.svg");}
 
-.boton.boton-secondary{font-weight: 700; background: none; font-size: 0.95em; box-shadow: none; color: #FF6194; margin: 16px 0}
-.boton.boton-secondary:hover{background: #fff ; box-shadow: 0 2px 8px 0 #c5c0b9}
-.boton.boton-secondary:active{opacity: 0.90;}
+.texto-blanco{color:#fff;}
+
+.boton{display: inline-block; margin-top: 24px; text-transform: uppercase; font-size: 16px; text-align: center; padding: 16px 40px; border-radius: 12px; color: #fff; text-decoration: none; border: 2px solid #FF6194; font-weight: bolder; transition: all 0.2s ease;}
+.boton:hover{ opacity: 1; background: #FF73A0; transform: translateY(-4px);}
 
 .cuenta-atras{padding: 120px 0 180px 0; text-align: center}
 #cuenta-atras {display: block; text-align: center; padding: 45px 0}
-#cuenta-atras li{min-width: 8rem; padding: 0 30px;display:inline-block; font-size: xx-large; font-family: 'Rubik', sans-serif;}
+#cuenta-atras li{min-width: 8rem; padding: 0 30px;display:inline-block; font-size: xx-large; font-family: 'Muli', sans-serif;}
 #cuenta-atras li:last-child{color: #54E0DB}
 
 .horario b{padding-right: 15px}
@@ -122,18 +126,25 @@ small{color: #a6b7c2}
 
 /************************************ HEADER ************************************************/
 
-nav {padding: 30px 0; display: flex; justify-content: space-between; align-items: flex-end;}
+header {position: absolute; top: 16px; right: 16px;}
+.cabecera {background: #233441; }
+.cabecera > div{padding: 16px;}
+
+nav {position:absolute; top: 0; right: 5vmax; padding: 30px 0; display: flex; justify-content: space-between; align-items: flex-end;}
 nav ul li {display: inline-block; padding-left: 45px}
-header{position: absolute; width: 100%; z-index: 999;}
 
 #main header{position: relative; padding: 5vmax 0;}
 #printer-friendly {display: none;}
 
 /************************************ FOOTER ************************************************/
-footer{padding: 60px; padding-bottom: 90px; background-color: #54E0DB; margin-top: 60px;}
-footer a{ color: #233441}
-footer svg{ fill: #233441}
-footer ul{display: flex; justify-content: space-around; align-items: center}
+footer{padding: 60px; padding-bottom: 90px; background-color: #233441; margin-top: 60px;}
+footer a, nav a{ font-weight: 800; font-size: 14px; text-transform: uppercase; color: #FF6194; text-decoration: none; }
+footer svg{ fill: #FF6194}
+footer .separador svg { color: #54E0DB}
+footer ul {justify-content: space-between;}
+footer ul, .datos-evento {display: flex; align-items: center; }
+.datos-evento  {padding-top: 16px;}
+.datos-evento  li:first-child {padding-right: 32px;}
 
 .entry-footer {display: none;}
 .malagajam #civicrm-footer {border: none; transform: scale(0.6); transform-origin: right center;}
@@ -146,7 +157,7 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 .malagajam .crm-container .help, .malagajam .crm-container #help, .malagajam .crm-container .status{background-color: #fbdca8; border: none; margin: 15px 0 30px; padding: 8px 12px; font-size: small; color: #222;}
 .malagajam .select2-container .select2-choice { filter: none; background-image: none; height: 32px; background-color: #fff; padding: 4px 8px; }
 .malagajam .crm-container fieldset { border-top: none; }
-.malagajam .crm-container fieldset legend { font-family: "Rubik", sans-serif;  font-size: medium; color: auto; }
+.malagajam .crm-container fieldset legend { font-family: "Muli", sans-serif;  font-size: medium; color: auto; }
 .malagajam #crm-container.crm-public input[type="text"],.malagajam  #crm-container.crm-public input[type="password"],.malagajam  #crm-container.crm-public input[type="email"],.malagajam  #crm-container.crm-public select {
 	max-width: auto; padding: 8px 12px; width: calc(100% - 24px); box-shadow: none; margin-bottom: 12px;}
 .malagajam #crm-container.crm-public .calc-value, .malagajam #crm-container.crm-public .content { margin-left: 0;}
@@ -210,48 +221,54 @@ footer ul{display: flex; justify-content: space-around; align-items: center}
 
 .malagajam #crm-container.crm-public  #pricesetTotal { margin: 15px 0 30px 0; }   
    
-
+.visible-xs { display: none; visibility: hidden; }
 
 /****************************** MEDIA QUERIES ******************************/
 @media all and (max-width: 992px){ /* TABLET */
-	.columnas {flex-wrap: wrap;}
-	.columna {width: 100% !important;}
-	.columna-25 {width: 50% !important;}
+
 	.horario .columna {width: 33.333% !important;}
 	.horario ul {border-right: 1px solid #dadada}
 	.horario .columna:last-child ul {border-right: none}
 	.invertidas {flex-direction: row;}
 	.post-it{display: flex; padding: 1.2rem 2rem; margin:2rem 0;}
 	.post-it > div {flex: 50%}
-	.cabecera {text-align: center; padding: 45px 0}
-	.cabecera img{padding: 1.5rem; padding-top: 4rem; max-width: 500px;}
 	h1 {font-size: 54px;}
-	.marco-foto{width: 80vw; margin: 10vw auto;}
+	
+	/*.marco-foto{width: 80vw; margin: 10vw auto;}*/
+	
 	*[name="patrocinadores"] small {padding-bottom: 30px;}
 	.patrocinadores li, .patrocinadores.colaboradores li{flex: 33.3333%; max-width: 33.333%;}
 	.patrocinadores{ justify-content: center;}
 	iframe{margin-top: 30px;}
+	
 }
 @media all and (max-width: 767px){ /* MOBILE */
+	.hidden-xs { display: none; visibility: hidden; }
+	.visible-xs { display: initial; visibility: visible; }
+	.columnas {flex-wrap: wrap;}
+	.columna {width: 100% !important;}
 	.columna, .horario .columna {width: 100% !important;}
+	.columna-25 {width: 50% !important;}
 	nav {flex-direction: column; align-items: center; font-size: small; text-align: center;}
 	nav ul {padding-top: 1rem;}
 	nav ul li{padding: 0 1rem;}
 	h1 {font-size: 48px;}
 	footer img{width: 22px;}
-	.diapo{padding: 75px 0}
+	.diapo{padding: 20px 0}
+	.diapo-peq{padding: 30px 0}
 	.backimg{background-size: cover;}
-	.cabecera {background-position: 75% 50px}
-	.marco-foto{ transform: translate(24px, 28px);}
-	.marco-foto-alt{ transform: translate(-24px, 28px);}
+	.cabecera img {max-height: 465px; display: block; margin: 0 auto;}
+	.boton{width:100%; }
+	.datos-evento {justify-content: space-between; padding: 0 10px;}
+
+	/*.marco-foto{ transform: translate(24px, 28px);}
+	.marco-foto-alt{ transform: translate(-24px, 28px);}*/
+	
 	.post-it{flex-direction: column; }
 	.horario ul {border:none; border-bottom: 1px solid #dadada}
 	.horario .columna:last-child ul {border-bottom: none}
-	.cabecera .h2-peq a{display: inline-block;}
 	#cuenta-atras li {min-width: 4rem; padding: 0 15px; font-size: x-large}
 	.patrocinadores li, .patrocinadores.colaboradores li{flex: 50%; max-width: 50%;}
-	.cuerpo {padding-bottom: 180px;}
-	html {box-shadow: inset 0 0 0 3px #54E0DB}
 	.video {transform: translateY(-240px); margin-bottom: -240px}
 
 	.malagajam .entry-content #register .crm-event-register-form-block > * {margin-bottom: 30px;}
